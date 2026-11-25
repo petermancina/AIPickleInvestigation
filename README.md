@@ -82,7 +82,7 @@ By comparison, when we check the other model file <b>code_reviewer_v1.pkl</b> we
 </p>
 
 <h2>Summary</h2>
-This quick lab walk-through shows how to use the Python module <b>pickletools</b> to examine the contents of a pickle AI model file without executing the code in the file. It shows that AI model files from untrusted sources can embed malicious code which can execute system commands on local systems when loaded and exfiltrate information to destinations outside of your organization. To prevent a pickle-based attack, you can choose to use SafeTensors models instead, though these do not prevent other malicious attacks, for instance Keras Lambda Layers attacks at the model architecture level.   
+This lab walk-through shows how to use the Python module <b>pickletools</b> to examine the contents of a pickle AI model file without executing the code in the file. It shows that AI model files from untrusted sources can embed malicious code which can execute system commands on local systems when loaded and exfiltrate information to destinations outside of your organization. To prevent a pickle-based attack, you can choose to use SafeTensors models instead, though these do not prevent other malicious attacks, for instance Keras Lambda Layers attacks at the model architecture level.   
 
 
 
